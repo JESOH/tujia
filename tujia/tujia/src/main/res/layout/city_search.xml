@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:background="@color/gray"
+    android:layout_height="70dp">
+    <ImageView
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/background_white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <ImageView
+        android:id="@+id/iv_search_city"
+        android:layout_marginLeft="30dp"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/ic_city_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+   <EditText
+       android:id="@+id/et_search_city"
+       android:layout_toRightOf="@+id/iv_search_city"
+       android:layout_marginRight="20dp"
+       android:layout_marginTop="10dp"
+       android:layout_marginBottom="10dp"
+       android:textSize="15sp"
+       android:editable="true"
+       android:layout_centerVertical="true"
+       android:hint="请输入的想去的目的地"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+
+
+
+</RelativeLayout>

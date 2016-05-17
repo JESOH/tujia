@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/iv_frag_home_display_hotel"
+        android:layout_width="match_parent"
+        app:riv_corner_radius_top_left="10dp"
+        app:riv_corner_radius_top_right="10dp"
+        android:src="@drawable/default_unit_big"
+        android:layout_height="180dp" />
+
+        <include layout="@layout/title_display_hotel"/>
+        <include layout="@layout/pirce_display_hotel"/>
+
+
+
+
+
+
+</LinearLayout>

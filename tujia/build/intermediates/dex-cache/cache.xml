@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\AndroidStudioWork\App\tujia\tujia\libs\ShareSDK-Wechat-Moments-2.6.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="2f743f1144aac80632be6d2ab76bff091a447b75">
+        <dex dex="D:\AndroidStudioWork\App\tujia\tujia\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Moments-2.6.3-0f59437e74457d5b43eea887bed25bf3fd4bbfb9.jar" />
+    </item>
+    <item
+        jar="D:\develop\.gradle\caches\modules-2\files-2.1\com.loopj.android\android-async-http\1.4.9\386a4339ffe52d5d63e80f9bed8d2b1d1a418249\android-async-http-1.4.9.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="D:\AndroidStudioWork\App\tujia\tujia\build\intermediates\pre-dexed\debug\android-async-http-1.4.9-067286f32526a9b4bbbdce22e13c140d12874d10.jar" />
+    </item>
+    <item
+        jar="D:\develop\.gradle\caches\modules-2\files-2.1\cz.msebera.android\httpclient\4.3.6\526a9f794eab830eae4f23a62c572878b3f491ab\httpclient-4.3.6.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="D:\AndroidStudioWork\App\tujia\tujia\build\intermediates\pre-dexed\debug\httpclient-4.3.6-e8a387807d357122a59568fa646c49f2da44ddc5.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudioWork\App\tujia\tujia\libs\ShareSDK-Wechat-Favorite-2.6.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b93c3df93503fdc529d8b43fd2f7a9f86f8cb9c5">
+        <dex dex="D:\AndroidStudioWork\App\tujia\tujia\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Favorite-2.6.3-75d0bbbce6abb73a47caed40b4dbdd6729830eba.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudioWork\App\tujia\tujia\libs\ShareSDK-SinaWeibo-2.6.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a080389406bbb3b21310f84df77d7391f355addc">
+        <dex dex="D:\AndroidStudioWork\App\tujia\tujia\build\intermediates\pre-dexed\debug\ShareSDK-SinaWeibo-2.6.3-a0a53935fd012cb2d34181b6c193e702db3aa1b1.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudioWork\App\tujia\tujia\libs\MobTools.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="23e791d96579e8c56fd11f1912130ff93c2d6289">
+        <dex dex="D:\AndroidStudioWork\App\tujia\tujia\build\intermediates\pre-dexed\debug\MobTools-b899cdc23b98bd361b1e68c300f59ef85e157e6e.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudioWork\App\tujia\tujia\libs\ShareSDK-Email-2.6.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="93cbbab118d5ef2efe877daf49908f0c6b7a7fd4">
+        <dex dex="D:\AndroidStudioWork\App\tujia\tujia\build\intermediates\pre-dexed\debug\ShareSDK-Email-2.6.3-eb1fdc55a30f22cb45735380693b4083638477b3.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudioWork\App\tujia\tujia\libs\ShareSDK-ShortMessage-2.6.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="fce8357b696421efbaa8dbfc3c99970a2f5e95ac">
+        <dex dex="D:\AndroidStudioWork\App\tujia\tujia\build\intermediates\pre-dexed\debug\ShareSDK-ShortMessage-2.6.3-5bfc2318968c647d91acea8e4135a75b4a4c0bed.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudioWork\App\tujia\tujia\libs\ShareSDK-QQ-2.6.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="496e163b2b242a83885f065f193810611ada229a">
+        <dex dex="D:\AndroidStudioWork\App\tujia\tujia\build\intermediates\pre-dexed\debug\ShareSDK-QQ-2.6.3-330ed624423d8b402a41d2073f7e28fede2cb819.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudioWork\App\tujia\tujia\libs\ShareSDK-TencentWeibo-2.6.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dc1a56b913899a11a37c47572a43e45d1d8d9a85">
+        <dex dex="D:\AndroidStudioWork\App\tujia\tujia\build\intermediates\pre-dexed\debug\ShareSDK-TencentWeibo-2.6.3-bfc97d50d5129762e30db3e956fd7cd1d8881ff8.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudioWork\App\tujia\tujia\libs\ShareSDK-Wechat-2.6.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c392d274c49d5b505a94edcd760c7e0e1536b034">
+        <dex dex="D:\AndroidStudioWork\App\tujia\tujia\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-2.6.3-eb255de415ceba72a88d32c091a868ac8e073aeb.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudioWork\App\tujia\tujia\libs\MobLogCollector.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0488dc80a5addc72b2fcb515f792a130c164ab5f">
+        <dex dex="D:\AndroidStudioWork\App\tujia\tujia\build\intermediates\pre-dexed\debug\MobLogCollector-d0cf4d2c44fdc5e5cf3832cfca1c3d91c7a3e2d2.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudioWork\App\tujia\tujia\libs\ShareSDK-QZone-2.6.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="32748d59aaaf19ba26918dfecb9e2c35c80955fb">
+        <dex dex="D:\AndroidStudioWork\App\tujia\tujia\build\intermediates\pre-dexed\debug\ShareSDK-QZone-2.6.3-ccf12df24d042d29656bb4843c5a8272f4aedc02.jar" />
+    </item>
+    <item
+        jar="D:\develop\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.4\695b63d702f505b9b916e02272e3b6381bade7f\gson-2.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="D:\AndroidStudioWork\App\tujia\tujia\build\intermediates\pre-dexed\debug\gson-2.4-772d22728b2c872348234854bc0123397df87200.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudioWork\App\tujia\tujia\libs\ShareSDK-Wechat-Core-2.6.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="33861299042fa89a53c56f3a15c37ba865a7d2e9">
+        <dex dex="D:\AndroidStudioWork\App\tujia\tujia\build\intermediates\pre-dexed\debug\ShareSDK-Wechat-Core-2.6.3-0dbe90623be9f876e5967d880e01c5e23cf6dc6a.jar" />
+    </item>
+    <item
+        jar="D:\develop\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.4\dd9eeb557650c4ad7394df23f0f5cf27a7cfc697\universal-image-loader-1.9.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dd9eeb557650c4ad7394df23f0f5cf27a7cfc697">
+        <dex dex="D:\AndroidStudioWork\App\tujia\tujia\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.4-258d064fe5154dedaacd6bd485676d40fc0991dd.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudioWork\App\tujia\tujia\libs\ShareSDK-Core-2.6.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d072ff710fbddf800658d07d735ca3c5464ea04f">
+        <dex dex="D:\AndroidStudioWork\App\tujia\tujia\build\intermediates\pre-dexed\debug\ShareSDK-Core-2.6.3-48718f28fdd875fe576e73844abcde7c7f0724fb.jar" />
+    </item>
+
+</items>

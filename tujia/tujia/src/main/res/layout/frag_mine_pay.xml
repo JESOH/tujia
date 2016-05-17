@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:background="@drawable/background_white">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="待支付"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="35dp"
+        android:drawableLeft="@drawable/profile_unpaid"/>
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="待评价"
+        android:drawableLeft="@drawable/profile_wait_check_in"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="待入住"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:drawableLeft="@drawable/profile_wait_comment1"/>
+
+</LinearLayout>
+

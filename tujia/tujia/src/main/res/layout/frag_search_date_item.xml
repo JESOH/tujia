@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:paddingTop="5dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:id="@+id/iv_frag_search_item"
+        android:src="@drawable/icon_search_date"
+        android:layout_marginRight="20dp"
+        android:layout_centerVertical="true"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+    <TextView
+        android:id="@+id/checkin__frag_search_item"
+        android:text="11月26日"
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        android:layout_toRightOf="@id/iv_frag_search_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/checkin_week__frag_search_item"
+        android:text="星期四"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/checkin__frag_search_item"
+        android:layout_toRightOf="@id/iv_frag_search_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/checkin"
+        android:text="入住"
+        android:layout_marginLeft="10dp"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/checkin__frag_search_item"
+        android:layout_toRightOf="@id/checkin_week__frag_search_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/checkout_frag_search_item"
+        android:text="12月27日"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="18sp"
+        android:layout_toRightOf="@id/checkin__frag_search_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/checkout_week__frag_search_item"
+        android:text="星期五"
+        android:layout_marginLeft="20dp"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/checkin__frag_search_item"
+        android:layout_toRightOf="@id/checkin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="离店"
+        android:layout_marginLeft="10dp"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/checkin__frag_search_item"
+        android:layout_toRightOf="@id/checkout_week__frag_search_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="25dp"
+        android:src="@drawable/ic_arrow_right_profile"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/iv_frag_search_item"
+        android:layout_below="@id/checkin_week__frag_search_item"/>
+
+</RelativeLayout>

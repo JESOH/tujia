@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:gravity="center"
+    android:background="@drawable/ump_background_popup">
+
+    <TextView
+        android:id="@+id/tv_menu_order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/icon_menu_order"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:textSize="14sp"
+        android:text="订单"/>
+
+    <TextView
+        android:id="@+id/tv_menu_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/icon_menu_message"
+        android:layout_marginTop="16dp"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:textSize="14sp"
+        android:text="消息"/>
+
+</LinearLayout>

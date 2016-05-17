@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/fl_home_activity"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <RadioGroup
+        android:id="@+id/rg_home_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_homepage"
+            style="@style/rb_homepage_style"
+            android:drawableTop="@drawable/home_tab_selector"
+            android:text="首页"
+            />
+
+        <RadioButton
+            android:id="@+id/rb_search"
+            style="@style/rb_homepage_style"
+            android:drawableTop="@drawable/search_tab_selector"
+            android:text="搜索" />
+
+        <RadioButton
+            android:id="@+id/rb_feature"
+            style="@style/rb_homepage_style"
+            android:drawableTop="@drawable/feature_tab_selector"
+            android:text="特色" />
+
+        <RadioButton
+            android:id="@+id/rb_find"
+            style="@style/rb_homepage_style"
+            android:drawableTop="@drawable/find_tab_selector"
+            android:text="发现" />
+
+        <RadioButton
+            android:id="@+id/rb_mine"
+            style="@style/rb_homepage_style"
+            android:drawableTop="@drawable/mine_tab_selector"
+            android:text="我的" />
+    </RadioGroup>
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:background="@color/orange"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:src="@drawable/icon_home_present"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="15dp"/>
+    <Button
+        android:id="@+id/btn_frag_home_title_search"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/ic_city_search"
+        android:background="@drawable/ump_background_popup"
+        android:layout_width="0dp"
+        android:button="@null"
+        android:layout_weight="6"
+        android:gravity="left|center_vertical"
+        android:textSize="10dp"
+        android:paddingLeft="50dp"
+        android:hint="请输入搜索目的地/涂家公寓"
+
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:src="@drawable/profile_notice_icon"
+        android:layout_weight="1"
+        android:padding="15dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

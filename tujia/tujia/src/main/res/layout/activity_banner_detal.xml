@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:pop="http://schemas.android.com/apk/res-auto">
+
+
+    <ImageView
+        android:padding="10dp"
+        android:id="@+id/iv_banner_vp_back"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:src="@drawable/arrow_back" />
+
+    <TextView
+        android:paddingTop="10sp"
+        android:id="@+id/iv_banner_vp_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_centerHorizontal="true"
+        android:text="特惠专区"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:layout_alignParentRight="true"
+        android:padding="10dp"
+        android:id="@+id/iv_banner_vp_more"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/icon_actionbar_menu_black" />
+    <WebView
+        android:id="@+id/wv_bannerlist_hv"
+        android:layout_below="@+id/iv_banner_vp_more"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <include
+        android:id="@+id/ll_banner_detal_more"
+        layout="@layout/bannner_detal_title_hp"/>
+
+
+</RelativeLayout>

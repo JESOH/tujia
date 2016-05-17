@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="#b9a7a7">
+
+    <TextView
+        android:id="@+id/tv_mine_my_favorites"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:drawableTop="@drawable/profile_my_favorites"
+        android:layout_marginLeft="100dp"
+        android:text="我的收藏"
+        android:textSize="10dp"
+        android:drawablePadding="2dp"
+        android:textColor="@color/white"/>
+
+    <ImageView
+        android:id="@+id/iv_mine_user"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/icon_person_cout_ww"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/tv_mine_house_keeper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/profile_house_keeper"
+        android:layout_centerVertical="true"
+        android:text="随身管家"
+        android:textSize="10dp"
+        android:drawablePadding="2dp"
+        android:textColor="@color/white"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="100dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:textColor="@color/white"
+        android:text="登陆或注册"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:background="@drawable/shape_discover_bg_summary"
+        android:layout_below="@+id/iv_mine_user"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="25dp"/>
+
+</RelativeLayout>

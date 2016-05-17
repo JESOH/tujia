@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:padding="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:textColor="@drawable/select_discover_content_title"
+            android:textSize="18sp"
+            android:text="最新"/>
+        <View
+            android:layout_width="0.3dp"
+            android:layout_height="match_parent"
+            android:background="@color/index_back_gray"
+            android:layout_margin="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:textColor="@drawable/select_discover_content_title"
+            android:textSize="18sp"
+            android:text="四季"/>
+        <View
+            android:layout_width="0.3dp"
+            android:layout_height="match_parent"
+            android:background="@color/index_back_gray"
+            android:layout_margin="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:textColor="@drawable/select_discover_content_title"
+            android:textSize="18sp"
+            android:text="度假"/>
+        <View
+            android:layout_width="0.3dp"
+            android:layout_height="match_parent"
+            android:background="@color/index_back_gray"
+            android:layout_margin="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:textColor="@drawable/select_discover_content_title"
+            android:textSize="18sp"
+            android:text="特色"/>
+        <View
+            android:layout_width="0.3dp"
+            android:layout_height="match_parent"
+            android:background="@color/index_back_gray"
+            android:layout_margin="5dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            android:textColor="@drawable/select_discover_content_title"
+            android:textSize="18sp"
+            android:text="故事"/>
+
+    </LinearLayout>
+
+    <!--<TextView-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="45dp"-->
+        <!--android:gravity="center"-->
+        <!--android:text="最新"-->
+        <!--android:drawableLeft="@drawable/ic_vertical_marker"-->
+        <!--android:drawablePadding="10dp"-->
+        <!--android:paddingLeft="15dp"-->
+        <!--android:textSize="17sp"/>-->
+
+    <!--android:numColumns="auto_fit" ，GridView的列数设置为自动-->
+    <!--android:columnWidth="90dp"，每列的宽度，也就是Item的宽度-->
+    <!--android:stretchMode="columnWidth"，缩放与列宽大小同步-->
+    <!--android:verticalSpacing="10dp"，两行之间的边距，如：行一(NO.0~NO.2)与行二(NO.3~NO.5)间距为10dp-->
+    <!--android:horizontalSpacing="10dp"，两列之间的边距。-->
+
+    <com.handmark.pulltorefresh.library.PullToRefreshGridView
+        android:id="@+id/gv_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="2"
+        android:verticalSpacing="12dp"
+        android:horizontalSpacing="16dp"
+        android:stretchMode="columnWidth"
+        android:scrollbarStyle="outsideOverlay"
+        android:padding="5dp">
+
+    </com.handmark.pulltorefresh.library.PullToRefreshGridView>
+
+</LinearLayout>

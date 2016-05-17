@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:SearchDate="http://schemas.android.com/apk/res-auto"
+    xmlns:SearchItem="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.it.tujia.view.SearchItem
+        android:id="@+id/si_frag_search"
+        SearchItem:item_city="香港"
+        SearchItem:item_icon="@drawable/icon_home_search_overseas_hot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <com.it.tujia.view.SearchDate
+        SearchDate:checkin_date="不限日期"
+        SearchDate:checkin_week=""
+        SearchDate:checkout_date="不限日期"
+        SearchDate:checkout_week="       "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <include layout="@layout/frag_search_people"/>
+    <com.it.tujia.view.SearchItem
+        android:id="@+id/location_frag_search"
+        SearchItem:item_city="想去香港哪里"
+        SearchItem:item_color="@color/btn_grey_pressed"
+        SearchItem:item_icon="@drawable/icon_search_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tv_frag_search_dosearch"
+        android:background="@drawable/rectangle_10dp"
+        android:layout_width="match_parent"
+        android:text="搜索"
+        android:padding="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:background="@color/gray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <include layout="@layout/frag_search_collect_layout"/>
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:background="@color/gray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <ImageView
+        android:layout_weight="8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:text="预定送体验券 100%保障有房 App独享返现"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

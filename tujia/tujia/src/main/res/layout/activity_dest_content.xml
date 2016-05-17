@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:SearchItem="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/title_destination"/>
+    <com.it.tujia.view.SearchItem
+        android:id="@+id/si_dest_search_nearby"
+        SearchItem:item_city="看看身边的途家公寓"
+        SearchItem:item_icon="@drawable/icon_search_location"
+        android:layout_width="match_parent"
+        SearchItem:item_line="@color/white"
+        SearchItem:item_back="@drawable/ic_arrow_right_profile"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/back_gray"/>
+
+    <com.it.tujia.view.SearchItem
+        android:id="@+id/si_dest_search_hot"
+        SearchItem:item_city="国内的目的地"
+        SearchItem:item_icon="@drawable/icon_home_search_demostic_hot"
+        android:layout_width="match_parent"
+        SearchItem:item_line="@color/white"
+        SearchItem:item_more="true"
+        SearchItem:item_back="@drawable/icon_home_search_more"
+        android:layout_height="wrap_content"/>
+    <com.it.tujia.view.MyGridView
+        android:layout_marginLeft="50dp"
+        android:numColumns="4"
+        android:id="@+id/gv_dest_search"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/back_gray"/>
+
+    <com.it.tujia.view.SearchItem
+        android:id="@+id/si_dest_search_oversea"
+        SearchItem:item_city="海外热门目的地"
+        SearchItem:item_icon="@drawable/icon_home_search_overseas_hot"
+        android:layout_width="match_parent"
+        SearchItem:item_line="@color/white"
+        SearchItem:item_more="true"
+        SearchItem:item_back="@drawable/icon_home_search_more"
+        android:layout_height="wrap_content"/>
+    <com.it.tujia.view.MyGridView
+        android:layout_marginLeft="50dp"
+        android:numColumns="4"
+        android:id="@+id/gv_dest_search_oversea"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/back_gray"/>
+    <com.it.tujia.view.SearchItem
+        android:id="@+id/si_dest_search_history"
+        SearchItem:item_city="历史搜索"
+        SearchItem:item_icon="@drawable/icon_home_search_result"
+        android:layout_width="match_parent"
+        SearchItem:item_line="@color/white"
+        android:layout_height="wrap_content"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+
+
+
+</LinearLayout>

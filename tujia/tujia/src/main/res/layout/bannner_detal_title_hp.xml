@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:pop="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:visibility="gone"
+    android:paddingRight="10dp"
+    android:layout_alignParentRight="true"
+    android:layout_below="@+id/iv_banner_vp_more"
+    android:layout_marginRight="10dp"
+    android:background="@drawable/pop_shape"
+    android:orientation="vertical">
+
+    <com.it.tujia.view.PopItem
+        android:id="@+id/banner_menu_oreder_hv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        pop:item_img="@drawable/icon_menu_order"
+        pop:item_text="订单" />
+
+    <com.it.tujia.view.PopItem
+        android:id="@+id/banner_menu_message_hv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        pop:item_img="@drawable/icon_menu_message"
+        pop:item_text="消息" />
+
+    <com.it.tujia.view.PopItem
+        android:id="@+id/banner_menu_share_hv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        pop:item_img="@drawable/icon_menu_share"
+        pop:item_text="分享" />
+</LinearLayout>
+

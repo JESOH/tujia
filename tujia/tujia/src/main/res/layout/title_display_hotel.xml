@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:padding="5dp"
+    android:background="@color/white"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/tv_title_display_hotel"
+        android:text="上海凯亚一房套房"
+        android:textSize="15sp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/tv_display_hotel_promotion"
+        android:textColor="@color/orange"
+        android:text="特价"
+        android:textSize="8sp"
+        android:padding="5dp"
+        android:visibility="gone"
+        android:background="@drawable/oval_orange"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>

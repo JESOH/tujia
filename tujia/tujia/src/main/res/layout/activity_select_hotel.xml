@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<include layout="@layout/title_city_search"></include>
+<ImageView
+    android:id="@+id/press_back"
+    android:background="@color/black"
+    android:layout_width="match_parent"
+    android:layout_height="1dp" />
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RadioGroup
+            android:id="@+id/rg_select_city_detal"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+
+
+        </RadioGroup>
+        <ImageView
+            android:background="@color/black"
+            android:layout_width="1dp"
+            android:layout_height="match_parent" />
+        <ListView
+            android:id="@+id/lv_select_city_hotel"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"></ListView>
+
+    </LinearLayout>
+    <ImageView
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <Button
+        android:id="@+id/click_city_hotel"
+        android:background="@color/orange"
+        android:text="确定"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

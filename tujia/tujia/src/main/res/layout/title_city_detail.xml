@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:src="@drawable/last_common"
+        android:layout_width="41dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="29dp" />
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/tv_title_city_hotel"
+        android:text="上海"
+       android:gravity="center"
+        android:layout_weight="1"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <ImageView
+        android:src="@drawable/search_result_list"
+        android:layout_width="30dp"
+        android:layout_margin="10dp"
+        android:layout_height="30dp" />
+    <ImageView
+        android:layout_margin="10dp"
+        android:src="@drawable/search_result_map"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+
+</LinearLayout>

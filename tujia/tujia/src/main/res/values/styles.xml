@@ -1,0 +1,95 @@
+<resources>
+
+    <!-- Base application theme. -->
+
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="rb_homepage_style">
+        <item name="android:width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <style name="title_button_style">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@color/white_20_percent</item>
+        <item name="android:textColor">@color/background_material_dark</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="tv_style_display_price">
+        <item name="android:textColor">@color/gray</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="rb_discover_style">
+        <item name="android:width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:paddingRight">20dp</item>
+        <item name="android:paddingBottom">5dp</item>
+    </style>
+
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:drawableRight="@drawable/profile_arrow"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:gravity="center"-->
+    <!--android:drawablePadding="8dp"-->
+    <!--android:background="@color/background"-->
+    <style name="mine_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:drawableRight">@drawable/profile_arrow</item>
+        <item name="android:gravity">center</item>
+        <item name="android:drawablePadding">8dp</item>
+    </style>
+
+
+    <style name="city_hotel_rb">
+        <item name="android:background">@drawable/share_step_edit</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:button">@null</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="DialogTransparent" parent="@android:style/Theme.Dialog">
+       <!-- <item name="android:windowBackground">@android:color/transparent</item>-->
+        <item name="android:windowAnimationStyle">@android:style/Animation</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+</resources>

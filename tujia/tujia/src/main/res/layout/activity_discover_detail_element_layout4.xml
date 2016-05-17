@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="@drawable/background_white">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+        <TextView
+            android:id="@+id/tv_theme_recommended"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/ic_theme_recommended"
+            android:gravity="center"
+            android:drawablePadding="10dp"
+            android:textSize="16sp"
+            android:text="精选公寓"/>
+
+        <TextView
+            android:id="@+id/tv_theme_home_search_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@mipmap/icon_home_search_more"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"
+            android:drawablePadding="8dp"
+            android:textColor="@color/gray"
+            android:text="更多推荐"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/gray"/>
+
+    <com.it.tujia.view.TuJiaDiscoverDetailGridView
+        android:id="@+id/gv_theme_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="2"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="5dp"
+        android:stretchMode="columnWidth"
+        android:scrollbarStyle="outsideOverlay"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"/>
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/ll_content_detail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.handmark.pulltorefresh.library.PullToRefreshScrollView
+            android:id="@+id/sc_feature_content_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg_activity"
+            android:fillViewport="true">
+
+            <RelativeLayout
+                android:id="@+id/rl_scroll_content"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <include layout="@layout/frag_feature_no_result" />
+
+                <include layout="@layout/frag_feature_content_detail" />
+
+            </RelativeLayout>
+
+
+        </com.handmark.pulltorefresh.library.PullToRefreshScrollView>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/iv_toTop"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="75dp"
+        android:layout_marginRight="20dp"
+        android:clickable="true"
+        android:src="@drawable/icon_waterfall_to_top"
+        android:visibility="gone" />
+
+    <include layout="@layout/frag_feature_no_result"/>
+
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Search">
+        <attr name="collect_title" format="string"/>
+        <attr name="collect_icon" format="reference"/>
+        <attr name="collect_desp" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="SearchDate">
+        <attr name="checkin_date" format="string"/>
+        <attr name="checkin_week" format="string"/>
+        <attr name="checkout_date" format="string"/>
+        <attr name="checkout_week" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="SearchItem">
+        <attr name="item_city" format="string"/>
+        <attr name="item_icon" format="reference"/>
+        <attr name="item_line" format="reference"/>
+        <attr name="item_color" format="reference"/>
+        <attr name="item_back" format="reference"/>
+        <attr name="item_more" format="boolean"/>
+    </declare-styleable>
+    <declare-styleable name="SlidingTabLayout">
+        <attr name="SlidingTabLayout_textViewFocusColor" format="color"/>
+        <attr name="SlidingTabLayout_textViewDefaultColor" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="pop">
+        <attr name="item_img" format="reference"/>
+        <attr name="item_text" format="string"/>
+    </declare-styleable>
+
+
+
+</resources>

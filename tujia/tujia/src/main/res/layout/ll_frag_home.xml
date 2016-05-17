@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:id="@+id/ll_frag_home"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/frag_home_banner"/>
+    <ImageView
+        android:background="@color/gray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <include layout="@layout/title_button_frag_home"/>
+    <ImageView
+        android:background="@color/gray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <include layout="@layout/frag_home_domestic"/>
+    <ImageView
+        android:background="@color/gray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <include layout="@layout/frag_home_hotcity"/>
+    <ImageView
+        android:background="@color/gray"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+    <ImageView
+        android:id="@+id/iv_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>

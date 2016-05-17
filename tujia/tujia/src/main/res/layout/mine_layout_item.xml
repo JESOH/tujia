@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/tv_mine_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="全部订单"
+            android:gravity="center"
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/profile_order_icon"/>
+
+        <TextView style="@style/mine_text_style" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@color/background"/>
+
+    <RelativeLayout
+        android:id="@+id/tv_mine_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="积分"
+            android:gravity="center"
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/profile_score_icon"/>
+
+        <TextView style="@style/mine_text_style" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@color/background"/>
+
+    <RelativeLayout
+        android:id="@+id/tv_mine_balance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="金额"
+            android:gravity="center"
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/profile_balance_icon"/>
+
+        <TextView style="@style/mine_text_style" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@color/background"/>
+
+    <RelativeLayout
+        android:id="@+id/tv_mine_gift"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="礼品卡"
+            android:gravity="center"
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/ic_profile_gift_card"/>
+
+        <TextView style="@style/mine_text_style" />
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@color/background"/>
+
+    <RelativeLayout
+        android:id="@+id/tv_mine_taste"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="体验卷"
+            android:gravity="center"
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/ic_profile_taste_card"/>
+
+        <TextView style="@style/mine_text_style"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@color/background"/>
+
+    <RelativeLayout
+        android:id="@+id/tv_mine_repay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="途游卡"
+            android:gravity="center"
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/ic_profile_prepay_card"/>
+
+        <TextView style="@style/mine_text_style"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@color/background"/>
+
+    <RelativeLayout
+        android:id="@+id/tv_mine_invite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="邀请好友拿返利"
+            android:gravity="center"
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/ic_profile_invite_friend"/>
+
+        <TextView style="@style/mine_text_style"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@color/background"/>
+
+    <RelativeLayout
+        android:id="@+id/tv_mine_service"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="10dp">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="客服"
+            android:gravity="center"
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/profile_service_icon"/>
+
+        <TextView
+            android:id="@+id/tv_tel"
+            style="@style/mine_text_style"
+            android:text="400-188-1234"
+            android:textColor="@color/grid_line_color"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/background"/>
+
+</LinearLayout>
